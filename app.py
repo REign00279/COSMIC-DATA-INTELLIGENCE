@@ -162,17 +162,34 @@ hr {
     }
 }
 
+
 /* COSMIC FILTER CONTROLS */
-[data-testid="stMultiSelect"] [data-baseweb="tag"] {
+[data-testid="stMultiSelect"] span[data-baseweb="tag"] {
     background-color: #26365f !important;
     border: 1px solid #67e8f9 !important;
     border-radius: 8px !important;
     color: #e0f2fe !important;
 }
 
-[data-testid="stMultiSelect"] [data-baseweb="tag"] span {
+[data-testid="stMultiSelect"] span[data-baseweb="tag"] span {
     color: #e0f2fe !important;
 }
+
+[data-testid="stMultiSelect"] span[data-baseweb="tag"] svg {
+    fill: #67e8f9 !important;
+    color: #67e8f9 !important;
+}
+
+[data-testid="stMultiSelect"] div[data-baseweb="select"] > div {
+    border-color: #34466f !important;
+    border-radius: 10px !important;
+}
+
+[data-testid="stSlider"] [role="slider"] {
+    background-color: #22d3ee !important;
+    border-color: #22d3ee !important;
+}
+
 
 [data-testid="stMultiSelect"] [data-baseweb="tag"] svg {
     fill: #67e8f9 !important;
