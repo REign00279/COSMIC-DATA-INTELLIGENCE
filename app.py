@@ -161,6 +161,37 @@ hr {
         padding: 20px;
     }
 }
+
+/* COSMIC FILTER CONTROLS */
+[data-testid="stMultiSelect"] [data-baseweb="tag"] {
+    background-color: #26365f !important;
+    border: 1px solid #67e8f9 !important;
+    border-radius: 8px !important;
+    color: #e0f2fe !important;
+}
+
+[data-testid="stMultiSelect"] [data-baseweb="tag"] span {
+    color: #e0f2fe !important;
+}
+
+[data-testid="stMultiSelect"] [data-baseweb="tag"] svg {
+    fill: #67e8f9 !important;
+}
+
+[data-testid="stSlider"] [role="slider"] {
+    background-color: #22d3ee !important;
+    border-color: #22d3ee !important;
+}
+
+[data-testid="stSlider"] [data-baseweb="slider"] > div > div {
+    background-color: #22d3ee !important;
+}
+
+[data-testid="stMultiSelect"] > div > div {
+    border-color: #34466f !important;
+    border-radius: 10px !important;
+}
+
 </style>
 """, unsafe_allow_html=True)
 
